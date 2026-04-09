@@ -1,5 +1,8 @@
 # AudioBloatware
 
+> [!CAUTION]
+> # You need to download the executable to run it in the background instead of keeping a terminal window active.
+
 > **Elevating your daily listening experience.** > AudioBloatware is designed to solve common audio issues—like background noise, jarring volume spikes, and flat stereo imaging. By applying a chain of simple yet highly effective DSP (Digital Signal Processing) filters, it transforms standard audio into a rich, immersive soundscape. All of this runs in a safe, clean, and lightweight user-space environment, completely free of bloat.
 
 ## 🧠 How It Works (The Architecture)
