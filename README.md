@@ -25,7 +25,7 @@ The core engine is built in Rust using `cpal` for high-performance audio I/O. Th
 ### 1. Build from Source
 Clone the repository and compile it in release mode for maximum DSP performance:
 ```bash
-git clone [https://github.com/zhartriad/AudioBloatware.git]
+git clone https://github.com/zhartriad/AudioBloatware.git
 cd AudioBloatware
 cargo build --release
 ### 2. Manual Execution & Routing
@@ -47,7 +47,7 @@ cp target/release/AudioBloatware ~/.local/bin/AudioBloatware
 ```
 2. Create the systemd service file:
 ```bash
-nano ~/.config/systemd/user/audiobloatware.service
+nano ~/.config/systemd/user/AudioBloatware.service
 ```
 3. Paste the following configuration:
 ```ini
@@ -66,7 +66,7 @@ WantedBy=default.target
 4. Enable and start the service:
 ```bash
 systemctl --user daemon-reload
-systemctl --user enable --now audiobloatware.service
+systemctl --user enable --now AudioBloatware.service
 ```
 
 ## 🛡️ Security & Performance
