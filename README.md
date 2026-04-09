@@ -25,8 +25,8 @@ The core engine is built in Rust using `cpal` for high-performance audio I/O. Th
 ### 1. Build from Source
 Clone the repository and compile it in release mode for maximum DSP performance:
 ```bash
-git clone [https://github.com/zhartriad/audiobloatware.git]
-cd audiobloatware
+git clone [https://github.com/zhartriad/AudioBloatware.git]
+cd AudioBloatware
 cargo build --release
 ### 2. Manual Execution & Routing
 Run the binary:
@@ -43,7 +43,7 @@ For a seamless "set it and forget it" experience, you can run AudioBloatware as 
 1. Move the compiled binary to your local bin path:
 ```bash
 mkdir -p ~/.local/bin
-cp target/release/AudioBloatware ~/.local/bin/audiobloatware
+cp target/release/AudioBloatware ~/.local/bin/AudioBloatware
 ```
 2. Create the systemd service file:
 ```bash
